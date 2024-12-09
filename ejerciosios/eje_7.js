@@ -7,9 +7,24 @@ d. más de 60000 ---- 45% */
 
 
 const n_pais=function() {
-    if(n_pais<1000){
-        console.log("5%");
-        return n_pais;
+    if(n_pais<10){
+        alert("5%");
+      
+        
     }
+    if(n_pais<20){
+        alert("10%");
+       
+    }
+    if(n_pais<35){
+        alert("20%");
     
+    }
+    if(n_pais>60){
+    alert("no pagas impestos");
+        
 }
+}
+let numero = parseInt(prompt("ingrese cantidad para declar impuestos:"));
+
+n_pais(numero);
