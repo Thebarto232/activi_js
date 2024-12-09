@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+  background-image: url(../img/1.jpg);
+  justify-content: center;
+  margin: 30px;
+  align-items: center;
+  text-decoration: none;
+}
+
+
+.pagina {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    width: 100%;
+  }
+
+
+.pagina__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.pagina__linea {
+  list-style: none;
+  text-align: center;
+}
+.paginacion__link {
+  display: inline-block;
+  margin: 0 5px;
+  padding: 8px 12px;
+  text-decoration: none;
+  color: #007bff;
+  background-color: #0c0c0c;
+  border: 1px solid #25e2e9;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+.pocision_tile{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+ 
+
+
+}
+.title{
+  font-size: 30px;
+  color:#25e2e9;
+}
+
+

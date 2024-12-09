@@ -9,3 +9,15 @@ if (división ==0){
 }
 
 console.log(división(5,10));
+// =======
+// if (división ===0){
+//     console.log("error");
+// }
+// else{
+//     console.log("rip");
+    
+// }
+
+// console.log(división(5,10));
+
+
