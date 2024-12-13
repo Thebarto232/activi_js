@@ -10,3 +10,5 @@ let volumen = formula(radio);
 
 alert(`El volumen de la esfera con radio ${radio} es: ${volumen.toFixed(2)}`);
 /**toFixed = redondiar ejem=11.123 redondeda 11.12,*/
+console.log("Calculating the volume of the sphere..."); 
+console.log(`The volume of the sphere with radius ${radio} is: ${volumen.toFixed(2)}`);
